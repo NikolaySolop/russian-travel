@@ -1,0 +1,4 @@
+.logo {
+    height: calc((10 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 42px);
+    margin: 0;
+}

@@ -1,0 +1,7 @@
+.cover__link {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+    text-decoration: none;
+}

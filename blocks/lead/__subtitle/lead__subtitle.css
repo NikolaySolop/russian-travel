@@ -1,0 +1,22 @@
+.lead__subtitle {
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: calc(36/30);
+    color: white;
+
+    width: 640px;
+    text-align: center;
+    margin: 0;
+    padding: 32px 0 0;
+
+    /*border: red solid 1px;*/
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        font-size: calc((14 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px);
+        width: calc((352 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 288px);
+        padding-top: calc((16 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px);
+    }
+}

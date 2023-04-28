@@ -1,0 +1,20 @@
+.intro__text {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(26.08/16);
+    color: white;
+
+    /*width: 690px;*/
+    width: calc(720px - (30 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px));;
+    margin: 40px 0 0;
+    padding: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 100%;
+        /*margin: calc((8 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px) 0 0;*/
+    }
+}

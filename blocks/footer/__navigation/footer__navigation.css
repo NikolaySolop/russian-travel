@@ -1,0 +1,6 @@
+.footer__navigation {
+    display: flex;
+    align-items: flex-end;
+    /*border: red solid 1px;*/
+    margin: 0;
+}

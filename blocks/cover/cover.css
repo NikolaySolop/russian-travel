@@ -1,0 +1,15 @@
+.cover {
+    /*display: grid;*/
+    /*grid-template-rows: 1fr;*/
+    /*grid-template-columns: 1fr;*/
+    max-width: 1184px;
+    z-index: 0;
+
+    /*border: yellow   solid 1px;*/
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: calc((448 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 320px);
+    }
+}

@@ -1,0 +1,14 @@
+.places__url-link {
+    font-family: Inter, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(22/18);
+
+    padding: 0;
+    margin: 12px 0 0;
+}
+
+.places__url-link:hover {
+    opacity: 0.8;
+}

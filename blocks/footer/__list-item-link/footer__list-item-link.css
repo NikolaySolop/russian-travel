@@ -1,0 +1,13 @@
+.footer__list-item-link {
+    font-family: Inter, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: calc(16px - (8 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 768px));
+    line-height: calc(18/16);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer__list-item-link:hover {
+    opacity: 0.8;
+}

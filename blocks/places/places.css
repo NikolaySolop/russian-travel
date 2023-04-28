@@ -1,0 +1,33 @@
+.places {
+    display: grid;
+    grid-template-columns: 460fr 484fr;
+    grid-auto-rows: minmax(auto, max-content);
+    column-gap: calc((8 / (1280 - 1024)) * (min(max(100vw, 1024px), 1280px) - 1024px) + 32px);
+    row-gap: calc((16 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 32px);
+
+    width: 100%;
+    max-width: 1082px;
+    box-sizing: border-box;
+    padding-top: calc((4 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 88px);
+    padding-left: calc((24 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 24px);
+    padding-right: calc((24 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 24px);
+    padding-bottom: calc((2 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 90px);
+
+    /*border: red solid 1px;*/
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        column-gap: calc((4 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 28px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        grid-template-columns: 1fr;
+        padding-top: calc((24 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 64px);
+        padding-left: calc((24 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 0px);
+        padding-right: calc((24 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 0px);
+        padding-bottom: calc((24 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 66px);
+    }
+}

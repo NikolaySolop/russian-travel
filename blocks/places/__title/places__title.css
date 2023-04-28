@@ -1,0 +1,25 @@
+.places__title {
+    font-family: Inter, sans-serif;
+    color: white;
+    font-weight: 900;
+    /*font-size: 72px;*/
+    font-size: calc(72px + (30 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 1024px));
+    line-height: calc(76/72);
+
+    margin: calc((8 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 24px) 0 0;
+    padding: 0;
+
+    /*border: red solid 1px;*/
+}
+
+.places__title:first-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        margin: calc((6 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 18px) 0 0;
+        font-size: calc(42px + (10 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 768px));
+        padding: 0 calc((768px - min(max(100vw, 320px), 768px)) / (768 - 320) * 16) 0;
+    }
+}

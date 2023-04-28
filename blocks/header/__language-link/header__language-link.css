@@ -1,0 +1,13 @@
+.header__language-link {
+    font-family: Inter, sans-serif;
+    line-height: 1.15;
+    font-size: calc((6 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 18px);
+    font-weight: normal;
+    color: #fff;
+    transition: opacity 0.3ms ease;
+}
+
+
+.header__language-link:hover {
+  opacity: 80%;
+}
