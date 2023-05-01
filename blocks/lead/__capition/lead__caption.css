@@ -1,6 +1,6 @@
 .lead__caption {
     font-family: Inter, sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 10px;
     line-height: calc(14/10);
     color: white;
@@ -10,8 +10,6 @@
     align-self: start;
     margin: 0;
     padding: 8px calc(24px - (24 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px)) 0;
-
-    /*border: red solid 1px;*/
 
 }
 

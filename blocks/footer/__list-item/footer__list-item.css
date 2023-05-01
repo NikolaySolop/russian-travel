@@ -3,15 +3,10 @@
     margin-left: 0;
     margin-right: calc(118px - (100 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px));
     margin-bottom: calc(32px - (32 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px));
-
-    /*border: yellow solid 1px;*/
 }
 
 .footer__list-item:last-of-type {
     margin-bottom: 0;
+    margin-right: 0;
 }
-
-/*.footer__list-item:first-of-type {*/
-/*    margin: 0 18px 0 48px;*/
-/*}*/
 

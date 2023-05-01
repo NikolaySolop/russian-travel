@@ -1,7 +1,6 @@
 .cover__link {
     display: grid;
-    grid-row: 1/2;
-    grid-column: 1/2;
+    justify-content: center;
 
     text-decoration: none;
 }

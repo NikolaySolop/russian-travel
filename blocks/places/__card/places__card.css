@@ -1,0 +1,30 @@
+.places__card {
+
+    display: grid;
+    grid-template-columns: 460fr 484fr;
+    grid-auto-rows: minmax(auto, max-content);
+    column-gap: calc((8 / (1280 - 1024)) * (min(max(100vw, 1024px), 1280px) - 1024px) + 32px);
+    row-gap: calc((16 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 32px);
+
+    width: 100%;
+    max-width: 984px;
+    box-sizing: border-box;
+    padding: 0 0 calc((8 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 72px);
+}
+
+.places__card:last-of-type {
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__card {
+        column-gap: calc((4 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 28px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__card {
+        grid-template-columns: 1fr;
+        padding: 0 0 calc((12 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 50px);
+    }
+}

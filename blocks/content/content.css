@@ -4,6 +4,5 @@
     align-items: center;
     max-width: 1280px;
     width: 100%;
-
-    /*border: blue solid 1px;*/
+    line-height: 0;
 }

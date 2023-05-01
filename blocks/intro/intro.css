@@ -6,8 +6,6 @@
     width: 100%;
     max-width: 1082px;
     box-sizing: border-box;
-
-    /*border: yellow solid 1px;*/
 }
 
 @media screen and (max-width: 768px) {

@@ -6,7 +6,12 @@
     padding: 28px calc((24 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 24px) 0;
     align-items: end;
     box-sizing: border-box;
-    /*margin: 0 calc((24 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 24px) 0;*/
+}
 
-    /*border: red solid 1px;*/
+@media screen and (max-width: 768px) {
+    .header {
+        padding-top: calc((12 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px);
+        padding-left: calc((8 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px);
+        padding-right: calc((8 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px);
+    }
 }

@@ -1,11 +1,6 @@
 .cover {
-    /*display: grid;*/
-    /*grid-template-rows: 1fr;*/
-    /*grid-template-columns: 1fr;*/
-    max-width: 1184px;
+    width: 100%;
     z-index: 0;
-
-    /*border: yellow   solid 1px;*/
 }
 
 @media screen and (max-width: 768px) {

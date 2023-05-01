@@ -2,14 +2,11 @@
     font-family: Inter, sans-serif;
     color: white;
     font-weight: 900;
-    /*font-size: 72px;*/
     font-size: calc(72px + (30 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 1024px));
     line-height: calc(76/72);
 
     margin: calc((8 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 24px) 0 0;
     padding: 0;
-
-    /*border: red solid 1px;*/
 }
 
 .places__title:first-of-type {
