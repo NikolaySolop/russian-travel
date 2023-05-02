@@ -6,15 +6,16 @@
     min-width: min(1184px, 100vw);
     object-fit: cover;
     z-index: 1;
-    opacity: 30%;
+    opacity: 70%;
     box-sizing: border-box;
     transition: opacity 0.5s ease;
 
-    background: url("../../../images/cover/cover-trains.jpg") center;
+    background: url("../../../images/cover/cover-trains.jpg");
     background-size: cover;
+    background-position: center;
 
 }
 
 .cover__image:hover {
-    opacity: 80%;
+    opacity: 20%;
 }
