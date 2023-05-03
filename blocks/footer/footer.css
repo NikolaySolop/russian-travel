@@ -9,6 +9,12 @@
     padding: 44px calc((24 / (1024 - 768)) * (min(max(100vw, 768px), 1024px) - 768px) + 24px) 16px;
 }
 
+@media screen and (max-width: 810px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .footer {
         padding-top: calc(64px - (20 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px));

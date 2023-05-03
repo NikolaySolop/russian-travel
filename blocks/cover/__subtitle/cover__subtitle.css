@@ -1,14 +1,17 @@
 .cover__subtitle {
     font-family: Inter, sans-serif;
+    font-style: normal;
     font-weight: 400;
     color: white;
-    font-size: calc((8 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 14px);;
-    line-height: calc(22/18);
+    font-size: calc((2 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px);
+    line-height: calc(22 / 18);
     text-align: center;
 
-    width: calc((72 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 288px);;
+    width: calc((72 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 288px);
 
-    margin: 32px 0 0;
+    margin: calc((16 / (768 - 320)) * (min(max(100vw, 320px), 768px) - 320px) + 16px) 0 0;
     padding: 0;
 
 }
+
+
