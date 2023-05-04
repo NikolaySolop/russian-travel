@@ -2,9 +2,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-/*active-link*/
-@import url(../blocks/header/__language-link/_active/header__language-link_active.css);
-
 /*page-root*/
 @import url(../blocks/page-root/page-root.css);
 
@@ -67,3 +64,6 @@
 @import url(../blocks/footer/__list-item-link/footer__list-item-link.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/*active-link*/
+@import url(../blocks/header/__language-link/_active/header__language-link_active.css);

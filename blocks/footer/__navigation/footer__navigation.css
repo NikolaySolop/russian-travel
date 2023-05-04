@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 760px) {
     .footer__navigation {
         flex-direction: column;
         justify-items: flex-start;
